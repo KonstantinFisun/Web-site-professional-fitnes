@@ -35,6 +35,12 @@ body{
     
 }
 
+.logo{
+    width: 80px;
+    height: 40px;
+    object-fit: cover;
+}
+
 .header__inner{
     padding: 22px 0;
     display: flex;
@@ -581,13 +587,12 @@ body{
     flex: 0 0 66.66666667%;
     max-width: 66.66666667%;
     min-height: 100%;
-    flex: 1 1 100%;
-    
+    max-height: 600px;
 }
 
 .fitness_class_inner_right_top{
     background-image: url(img/Fitness_class/3.jpeg);
-    max-height: 300px;
+    min-height: 300px;
     background-position: 50% 50%;
     flex: 20 0 33.33333333%;
     object-fit: cover;
@@ -599,23 +604,161 @@ body{
 }
 
 .fitness_class_inner_right_bot{
-    
+    flex: 60 0 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
 }
 
+.fitness_class_inner_right_bot_left{
+    flex: 0 0 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
 
+.fitness_class_inner_right_bot_right{
+    flex: 0 0 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
 
+.fitness_class_inner_right_bot_left_top{
+    border: 10px solid;
+    min-height: 300px;
+    flex: 30 0 50%;
+    padding-left: 13px;
+    justify-content: center;
+    background-color: #18181e;
+    color: white;
+    border-color: #f7c20d;
+    display: flex;
+    flex-direction: column;
+}
 
+.fitness_clas{
+    background-color: #18181e;
+    margin-right: 13px;
+    font-family: Georgia, sans-serif;
+    font-size: 3rem;
+    margin: 25px 20px 25px 0;
+}
 
+a.fitness{
+    width: 73px;
+    border: 10px solid;
+    border-color: #fcc133;
+    margin-left: 0;
+    margin-right: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border-width: 7px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    text-decoration: none;
+    color: #ffffff;
+    transition: border-color .2s linear; 
+    
+}
+a.fitness:hover{
+    border-color: #000;
+}
 
+.fitness_class_inner_right_bot_left_bot{
+    background-image: url(img/Fitness_class/4.jpeg);
+    border: 10px solid;
+    border-color: #f7c20d;
+    flex: 30 0 50%;
+    min-height: 300px;
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+}
 
+.fitness_class_inner_right_bot_right{
+    background-image: url(img/Fitness_class/5.jpeg);
+    flex: 60 0 100%;
+    max-width: 50%;
+    border: 10px solid;
+    border-color: #f7c20d;
+    max-height: 600px;
+    background-position: 50% 50%;
+}
 
+/* Contact
+=======================*/
 
+.contact{
+    position: relative;
+}
 
+.contact_left_column{
+    width: calc(((100% - 720px) / 2) + 128px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    background-color: #000000;
+    height: 100%;
+}
 
+.contact_inner{
+    min-height: 493px;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 69px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
 
+.contact_inner_left{
+    background-image: url(img/Contact/1.jpeg);
+    min-height: 375px;
+    background-position: 50% 50%;
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+    object-fit: cover;
+    background-size: cover;
+}
 
+.contact_inner_right{
+    min-height: 375px;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 10px solid transparent;
+}
 
+h2.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
 
+p.contact_up{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+p.contact_down{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
 
 
 
